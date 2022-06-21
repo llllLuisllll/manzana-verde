@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:src="@drawable/ic_maz"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="@string/name"
+            android:textColor="@color/LightGreen_700"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:text="Con tu red social"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="@string/facebook"
+            android:layout_width="100dp"
+            android:layout_marginRight="18dp"
+            android:backgroundTint="@color/purple_700"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:text="@string/google"
+            android:layout_width="100dp"
+            android:layout_marginLeft="18dp"
+            android:textColor="@color/yellow_900"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_marginHorizontal="12dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Continuar con apple"
+        android:backgroundTint="@color/black"
+        android:layout_marginHorizontal="12dp"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Continua con tu celular"
+        android:backgroundTint="@color/Green_500"
+        android:layout_marginHorizontal="12dp"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:text="Con tu correo"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="12dp"
+            android:text="Ingrese su correo electrónico"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="12dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content">
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textSize="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="ejemplo@correo.com"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="13dp"
+            android:text="Contraseña"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="12dp"
+        android:backgroundTint="@color/white"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:backgroundTint="@color/white"
+            android:textSize="10dp"
+            android:inputType="textEmailAddress"
+            android:hint="Debe tener minimo 8 digitos"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Inicia sesión"
+            android:backgroundTint="@color/Green_500"
+            android:layout_marginHorizontal="12dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:text="¿No puedes iniciar secion?"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="70dp"
+            android:text="¿Aun no tienes cuenta?"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:text="Registrate"
+            android:backgroundTint="@color/Green_500"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+

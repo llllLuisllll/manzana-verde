@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Manzanverde</string>
+    <string name="name">Iniciar sesión</string>
+    <string name="nam">Con tu red social</string>
+    <string name="facebook">F</string>
+    <string name="google">G</string>
+
+</resources>
